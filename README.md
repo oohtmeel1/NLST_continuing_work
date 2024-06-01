@@ -12,6 +12,7 @@ https://github.com/oohtmeel1/AI-Data-Readiness-Challenge-for-the-NCI-Cancer-Rese
 Requirements:
 
 `folder of JPEG images` <- A single folder of JPEG images. Containing both positive and negative files.
+
 `train` `val` `test` <- csv files containing training labels
 
 
