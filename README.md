@@ -28,7 +28,8 @@ and this repo:
 https://github.com/oohtmeel1/AI-Data-Readiness-Challenge-for-the-NCI-Cancer-Research-Data-Commons
 
 Requirements and usage:
-The model was trained using a Geforce RTX 3080TI. 
+
+The model takes about 512mb of space per forward pass. 
 
 `folder of JPEG images` <- A single folder of JPEG images. Containing both positive and negative files. Can be downloaded from the NCI. Or you can use your own. The files are single CT scans.
 
@@ -39,10 +40,16 @@ The model was trained using a Geforce RTX 3080TI.
 `model_architecture.py` <- File containing the various layers of my model.
 
 `begin_experiment.py` <- File to run the experiment. Creates a tensorboard directory to log data, and saves models at several checkpoints. 
-
+saves resulting metrics to a csv `result_file.csv`. 
+You can call metrics like `recall`,`accuracy`,`F1`,`precision` by typing 
+`acc`  <- Binary Accuracy
+`recall` <- Recall
+`F1` <- F1 Score
+`precision`<- Binary Precision
 
 `pytorch 2.1.0` (requirements.txt should take care of that)
 `python 3.11.7` 
+
 
 
 
