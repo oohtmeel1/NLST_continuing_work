@@ -11,9 +11,15 @@ https://github.com/oohtmeel1/AI-Data-Readiness-Challenge-for-the-NCI-Cancer-Rese
 
 Requirements:
 
-`folder of JPEG images` <- A single folder of JPEG images. Containing both positive and negative files.
+`folder of JPEG images` <- A single folder of JPEG images. Containing both positive and negative files. Can be downloaded from the NCI. 
 
-`train` `val` `test` <- csv files containing training labels
+`train` `val` `test` <- CSV files containing training labels.
+
+`loading_data_files.py` <- Dataloader file, uses Pytorch 
+
+`model_architecture.py` <- File containing the various layers of my model.
+
+`begin_experiment.py` <- File to run the experiment. Creates a tensorboard directory to log data, and saves models at several checkpoints.
 
 
 
