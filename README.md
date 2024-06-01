@@ -41,10 +41,14 @@ The model takes about 512mb of space per forward pass.
 
 `begin_experiment.py` <- File to run the experiment. Creates a tensorboard directory to log data, and saves models at several checkpoints. 
 saves resulting metrics to a csv `result_file.csv`. 
-You can call metrics like `recall`,`accuracy`,`F1`,`precision` by typing 
+You can call metrics like `recall`,`accuracy`,`F1`,`precision`:
+
 `acc`  <- Binary Accuracy
+
 `recall` <- Recall
+
 `F1` <- F1 Score
+
 `precision`<- Binary Precision
 
 `pytorch 2.1.0` (requirements.txt should take care of that)
