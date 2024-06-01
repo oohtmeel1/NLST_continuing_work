@@ -29,6 +29,7 @@ https://github.com/oohtmeel1/AI-Data-Readiness-Challenge-for-the-NCI-Cancer-Rese
 
 Requirements and usage:
 The model was trained using a Geforce RTX 3080TI. 
+
 `folder of JPEG images` <- A single folder of JPEG images. Containing both positive and negative files. Can be downloaded from the NCI. Or you can use your own. The files are single CT scans.
 
 `train` `val` `test` <- CSV files containing training labels. 
