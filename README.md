@@ -21,6 +21,7 @@ Requirements:
 
 `begin_experiment.py` <- File to run the experiment. Creates a tensorboard directory to log data, and saves models at several checkpoints.
 
+`pytorch 2.1.0` (requirements.txt should take care of that)
 
 
 
