@@ -41,7 +41,8 @@ The model takes about 512mb of space per forward pass.
 
 `begin_experiment.py` <- File to run the experiment. Creates a tensorboard directory to log data, and saves models at several checkpoints. 
 saves resulting metrics to a csv `result_file.csv`. 
-Metric Calls /
+
+Metric Calls 
 
 `recall`,`accuracy`,`F1`,`precision`
 
