@@ -32,6 +32,11 @@ In order to be able to use the model you will need the following:
 
 The model takes about 512mb of space per forward pass. 
 
+
+`pytorch 2.1.0` (requirements.txt should take care of that)
+
+`python 3.11.7` 
+
 `folder of JPEG images` <- A single folder of JPEG images. Containing both positive and negative files. Can be downloaded from the NCI. Or you can use your own. The files are single CT scans.
 
 `train` `val` `test` <- CSV files containing training labels. 
@@ -60,8 +65,6 @@ Type the following into your terminal to call them:
 
 Additionally a csv file will be saved that will contain the names of the best models, the metrics above and ROC curve metrics. 
 
-`pytorch 2.1.0` (requirements.txt should take care of that)
-`python 3.11.7` 
 
 
 
