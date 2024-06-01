@@ -44,8 +44,11 @@ The model takes about 512mb of space per forward pass.
 saves resulting metrics to a csv `result_file.csv`. 
 
 Metric Calls 
+After the model makes a prediction it will compute the following metrics:
 
 `recall`,`accuracy`,`F1`,`precision`
+
+Type the following into your terminal to call them:
 
 `acc`  <- Binary Accuracy
 
@@ -54,6 +57,8 @@ Metric Calls
 `F1` <- F1 Score
 
 `precision`<- Binary Precision
+
+Additionally a csv file will be saved that will contain the names of the best models, the metrics above and ROC curve metrics. 
 
 `pytorch 2.1.0` (requirements.txt should take care of that)
 `python 3.11.7` 
