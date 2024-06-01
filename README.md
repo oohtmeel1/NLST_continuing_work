@@ -28,6 +28,7 @@ and this repo:
 https://github.com/oohtmeel1/AI-Data-Readiness-Challenge-for-the-NCI-Cancer-Research-Data-Commons
 
 Requirements and usage:
+In order to be able to use the model you will need the following:
 
 The model takes about 512mb of space per forward pass. 
 
