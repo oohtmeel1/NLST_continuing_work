@@ -7,13 +7,19 @@ After the competition was over I revisited the model to see what I could improve
 This is the result of that work. 
 
 The original model:
-<b>Metrics</b> 
+<b>Metric results</b> 
  * Accuracy 0.5305555661519369 
  * Recall 0.5879966815312704 
  * F-1 Score 0.6082125902175903 
  * Precision 0.6471310456593832
 
- 
+ After my changes:
+ <b>Metric results</b> 
+ * Accuracy 0.733010
+ * Recall 0.85185
+ * Precision 0.77500
+ * F-1 Score 0.7329
+
 The original model can be found at the National Cancer Institute:
 https://computational.cancer.gov/model/aidr-challenge-tier-1-mcfarlin
 and this repo:
