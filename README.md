@@ -38,7 +38,8 @@ The model was trained using a Geforce RTX 3080TI.
 
 `model_architecture.py` <- File containing the various layers of my model.
 
-`begin_experiment.py` <- File to run the experiment. Creates a tensorboard directory to log data, and saves models at several checkpoints. Can specify the 
+`begin_experiment.py` <- File to run the experiment. Creates a tensorboard directory to log data, and saves models at several checkpoints. 
+
 
 `pytorch 2.1.0` (requirements.txt should take care of that)
 `python 3.11.7` 
