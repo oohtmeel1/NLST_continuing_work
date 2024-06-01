@@ -5,12 +5,13 @@ It can predict whether Cancer is present or not in a CT scan.
 
 After the competition was over I revisited the model to see what I could improve.
 This is the result of that work. 
+
 The original model:
 <b>Metrics</b> 
- Accuracy 0.5305555661519369 
- Recall 0.5879966815312704 
- F-1 Score 0.6082125902175903 
- Precision 0.6471310456593832
+ * Accuracy 0.5305555661519369 
+ * Recall 0.5879966815312704 
+ * F-1 Score 0.6082125902175903 
+ * Precision 0.6471310456593832
 
  
 The original model can be found at the National Cancer Institute:
