@@ -29,6 +29,7 @@ https://github.com/oohtmeel1/AI-Data-Readiness-Challenge-for-the-NCI-Cancer-Rese
 
 Requirements and usage:
 In order to be able to use the model you will need the following:
+Files will be in the folders of this repo if available. 
 
 The model takes about 512mb of space per forward pass. 
 
@@ -39,7 +40,10 @@ The model takes about 512mb of space per forward pass.
 
 `folder of JPEG images` <- A single folder of JPEG images. Containing both positive and negative image files of lung cancer. I used DICOM2jpeg to convert the files. 
 
-`train` `val` `test` <- CSV files containing training labels. 
+In order to demo the model I uploaded all of the files I used for training and testing to Google drive and here is the link to download them. They require about 1GB of space. https://drive.google.com/drive/folders/1MLwxhcQmn7qXqy_iP2zDjLGyxa_G_jLS
+
+
+`train` `val` `test` <- CSV files containing training labels. Demo files are located in the files folder of this repo. 
 
 `loading_data_files.py` <- Dataloader file, uses Pytorch.
 
@@ -50,14 +54,17 @@ The model takes about 512mb of space per forward pass.
 `begin_experiment.py` <- File to run the experiment. Creates a tensorboard directory to log data, and saves models at several checkpoints. 
 saves resulting metrics to a csv `results.csv`. 
 
+make sure to init a venv! or don't. I don't know your life.
+
 Metric Calls 
 After the model makes a prediction it will compute the following metrics:
 
-`recall`,`accuracy`,`F1`,`precision`
+`recall`,`accuracy`,`F1`,`precision` and the predicted and true labels. In case other calculations are needed. 
 
-Saving them all to a csv file. 
 
-Additionally a csv file will be saved that will contain the names of the best models, and the metrics from above. 
+Additionally a csv file will be saved that will contain the names of the best models, and the metrics from above. I'll add more as I work on it.
+
+
 
 
 
