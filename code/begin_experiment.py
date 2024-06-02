@@ -197,7 +197,7 @@ epxn_ = int(input('Please enter how many epochs you would like to train ',))
 
 trainer.run(train_dataloader, max_epochs= epxn_)
 accuracy10=[]
-
+import numpy as np
 from torcheval.metrics.functional import binary_accuracy
 from torcheval.metrics.functional.classification import binary_recall
 from torcheval.metrics.functional.aggregation.auc import auc
