@@ -81,7 +81,6 @@ statsmodels==0.14.2
 sympy==1.12
 tensorboardX==2.6.2.2
 threadpoolctl==3.5.0
-tokenizers==0.19.1
 torch==2.1.0+cu121
 torchaudio==2.1.0+cu121
 torcheval==0.0.7
