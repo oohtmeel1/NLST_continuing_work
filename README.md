@@ -63,7 +63,7 @@ Type the following into your terminal to call them:
 
 `precision`<- Binary Precision
 
-Additionally a csv file will be saved that will contain the names of the best models, the metrics above and ROC curve metrics. 
+Additionally a csv file will be saved that will contain the names of the best models, and the metrics from above. 
 
 
 
