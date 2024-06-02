@@ -37,7 +37,7 @@ The model takes about 512mb of space per forward pass.
 
 `python 3.11.7` 
 
-`folder of JPEG images` <- A single folder of JPEG images. Containing both positive and negative files. Can be downloaded from the NCI. Or you can use your own. The files are single CT scans.
+`folder of JPEG images` <- A single folder of JPEG images. Containing both positive and negative image files of lung cancer. I used DICOM2jpeg to convert the files. 
 
 `train` `val` `test` <- CSV files containing training labels. 
 
