@@ -55,15 +55,7 @@ After the model makes a prediction it will compute the following metrics:
 
 `recall`,`accuracy`,`F1`,`precision`
 
-Type the following into your terminal to call them:
-
-`acc`  <- Binary Accuracy
-
-`recall` <- Recall
-
-`F1` <- F1 Score
-
-`precision`<- Binary Precision
+Saving them all to a csv file. 
 
 Additionally a csv file will be saved that will contain the names of the best models, and the metrics from above. 
 
