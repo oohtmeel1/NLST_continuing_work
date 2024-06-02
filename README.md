@@ -40,7 +40,7 @@ The model takes about 512mb of space per forward pass.
 
 `folder of JPEG images` <- A single folder of JPEG images. Containing both positive and negative image files of lung cancer. I used DICOM2jpeg to convert the files. 
 
-In order to demo the model I uploaded all of the files I used for training and testing to Google drive and here is the link to download them. They require about 1GB of space. https://drive.google.com/drive/folders/1MLwxhcQmn7qXqy_iP2zDjLGyxa_G_jLS
+In order to demo the model I uploaded all of the JPEG files I used for training and testing to Google drive and here is the link to download them. They require about 1GB of space. https://drive.google.com/drive/folders/1MLwxhcQmn7qXqy_iP2zDjLGyxa_G_jLS
 
 
 `train` `val` `test` <- CSV files containing training labels. Demo files are located in the files folder of this repo. 
