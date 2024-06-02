@@ -9,16 +9,16 @@ This is the result of that work.
 
 The original model:
 <b>Metric results</b> 
- * Accuracy 0.5305555661519369 
- * Recall 0.5879966815312704 
- * F-1 Score 0.6082125902175903 
- * Precision 0.6471310456593832
+ * Accuracy 0.53055
+ * Recall 0.58799 
+ * F-1 Score 0.60821 
+ * Precision 0.64713
 
  After my changes:
  <b>Metric results</b> 
- * Accuracy 0.733010
+ * Accuracy 0.73301
  * Recall 0.85185
- * F-1 Score 0.7329
+ * F-1 Score 0.73290
  * Precision 0.77500
  
 
