@@ -41,7 +41,9 @@ The model takes about 512mb of space per forward pass.
 
 `train` `val` `test` <- CSV files containing training labels. 
 
-`loading_data_files.py` <- Dataloader file, uses Pytorch 
+`loading_data_files.py` <- Dataloader file, uses Pytorch.
+
+`defining_directories.py` <- defines file locations otherwise it will run using pre-specified defaults.
 
 `model_architecture.py` <- File containing the various layers of my model.
 
