@@ -39,9 +39,6 @@ The model takes about 512mb of space per forward pass.
 `python 3.11.7` 
 
 `folder of JPEG images` <- A single folder of JPEG images. Containing both positive and negative image files of lung cancer. I used DICOM2jpeg to convert the files. 
-
-In order to demo the model:
-
 If you want to demo the model you can download all of the transformed jpeg images at this link (They require about 1GB of space). https://drive.google.com/drive/folders/1MLwxhcQmn7qXqy_iP2zDjLGyxa_G_jLS
 
 
