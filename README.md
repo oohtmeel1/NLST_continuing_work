@@ -33,7 +33,6 @@ Files will be in the folders of this repo if available.
 
 The model takes about 512mb of space per forward pass. 
 
-
 `pytorch 2.1.0` (requirements.txt should take care of that)
 
 `python 3.11.7` 
@@ -46,7 +45,7 @@ If you want to demo the model you can download all of the transformed jpeg image
 
 `loading_data_files.py` <- Dataloader file, uses Pytorch.
 
-`defining_directories.py` <- defines file locations otherwise it will run using pre-specified defaults.
+`defining_directories.py` <- Defines file locations.
 
 `model_architecture.py` <- File containing the various layers of my model.
 
