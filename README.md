@@ -48,7 +48,7 @@ The model takes about 512mb of space per forward pass.
 `model_architecture.py` <- File containing the various layers of my model.
 
 `begin_experiment.py` <- File to run the experiment. Creates a tensorboard directory to log data, and saves models at several checkpoints. 
-saves resulting metrics to a csv `result_file.csv`. 
+saves resulting metrics to a csv `results.csv`. 
 
 Metric Calls 
 After the model makes a prediction it will compute the following metrics:
