@@ -55,6 +55,7 @@ saves resulting metrics to a csv `results.csv`.
 make sure to init a venv! or don't. I don't know your life.
 
 Metrics
+
 After the model makes a prediction it will compute the following metrics:
 
 `recall`,`accuracy`,`F1`,`precision` and the predicted and true labels. In case other calculations are needed. 
