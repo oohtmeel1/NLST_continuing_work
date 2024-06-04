@@ -52,6 +52,8 @@ If you want to demo the model you can download all of the transformed jpeg image
 `begin_experiment.py` <- File to run the experiment. Creates a tensorboard directory to log data, and saves models at several checkpoints. 
 saves resulting metrics to a csv `results.csv`. 
 
+`python3 -m venv <myenvname>` <- Make sure to init that virtual enviornment.
+
 
 Metrics
 
