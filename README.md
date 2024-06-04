@@ -52,7 +52,6 @@ If you want to demo the model you can download all of the transformed jpeg image
 `begin_experiment.py` <- File to run the experiment. Creates a tensorboard directory to log data, and saves models at several checkpoints. 
 saves resulting metrics to a csv `results.csv`. 
 
-make sure to init a venv! or don't. I don't know your life.
 
 Metrics
 
@@ -65,6 +64,8 @@ Additionally a csv file will be saved that will contain the names of the best mo
 
 
 
+Also here is the Citation for the images from the NCI
+National Lung Screening Trial Research Team. (2013). Data from the National Lung Screening Trial (NLST) [Data set]. The Cancer Imaging Archive. https://doi.org/10.7937/TCIA.HMQ8-J677
 
 
 
