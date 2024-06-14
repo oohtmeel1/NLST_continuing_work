@@ -66,8 +66,13 @@ Additionally a csv file will be saved that will contain the names of the best mo
 
 
 
-Also here is the Citation for the images from the NCI
-National Lung Screening Trial Research Team. (2013). Data from the National Lung Screening Trial (NLST) [Data set]. The Cancer Imaging Archive. https://doi.org/10.7937/TCIA.HMQ8-J677
+Also here is the Citation for the images from the NCI I used from the IDC.
+
+I downloaded everything using the IDC index package.It works really well now.
+
+Fedorov, A., Longabaugh, W. J. R., Pot, D., Clunie, D. A., Pieper, S., Aerts, H. J. W. L., Homeyer, A., Lewis, R., Akbarzadeh, A., Bontempi, D., Clifford, W., Herrmann, M. D., Höfener, H., Octaviano, I., Osborne, C., Paquette, S., Petts, J., Punzo, D., Reyes, M., Schacherer, D. P., Tian, M., White, G., Ziegler, E., Shmulevich, I., Pihl, T., Wagner, U., Farahani, K. & Kikinis, R.
+NCI Imaging Data Commons. Cancer Res. 81, 4188–4193 (2021).
+http://dx.doi.org/10.1158/0008-5472.CAN-21-0950 
 
 
 
