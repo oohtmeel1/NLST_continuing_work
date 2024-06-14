@@ -73,7 +73,6 @@ I downloaded everything using the IDC index package.It works really well now.
 Fedorov, A., Longabaugh, W. J. R., Pot, D., Clunie, D. A., Pieper, S., Aerts, H. J. W. L., Homeyer, A., Lewis, R., Akbarzadeh, A., Bontempi, D., Clifford, W., Herrmann, M. D., Höfener, H., Octaviano, I., Osborne, C., Paquette, S., Petts, J., Punzo, D., Reyes, M., Schacherer, D. P., Tian, M., White, G., Ziegler, E., Shmulevich, I., Pihl, T., Wagner, U., Farahani, K. & Kikinis, R.
 NCI Imaging Data Commons. Cancer Res. 81, 4188–4193 (2021).
 http://dx.doi.org/10.1158/0008-5472.CAN-21-0950 
-
-
+https://portal.imaging.datacommons.cancer.gov/explore/filters/?collection_id=nlst
 
 
