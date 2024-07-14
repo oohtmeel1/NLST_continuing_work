@@ -31,7 +31,7 @@ Requirements and usage:
 In order to be able to use the model you will need the following:
 Files will be in the folders of this repo if available. 
 
-The model takes about 512mb of space per forward pass. 
+The model takes about 800mb of space per forward pass. 
 
 `pytorch 2.1.0` (`requirements.txt` should take care of that)
 
